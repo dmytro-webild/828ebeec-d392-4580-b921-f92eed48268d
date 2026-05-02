@@ -52,12 +52,12 @@ export default function LandingPage() {
         { text: "Message on WhatsApp", href: "https://wa.me/44700000000" },
       ]}
       carouselItems={[
-        { id: "c1", imageSrc: "http://img.b2bpic.net/free-photo/firewoman-her-uniform-with-safety-helmet_176474-93069.jpg", imageAlt: "Electrician tools" },
-        { id: "c2", imageSrc: "http://img.b2bpic.net/free-photo/electrical-technician-looking-focused-while-working-switchboard-with-fuses_169016-23482.jpg", imageAlt: "Working on wires" },
-        { id: "c3", imageSrc: "http://img.b2bpic.net/free-photo/living-room-without-electric-light-inside-modern-house-blackout_123827-35881.jpg", imageAlt: "Home exterior" },
-        { id: "c4", imageSrc: "http://img.b2bpic.net/free-photo/close-up-circuit-board-with-multimeter_23-2148419182.jpg", imageAlt: "Tools setup" },
-        { id: "c5", imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-black-auto-mechanic-workshop_637285-9406.jpg", imageAlt: "Electrician portrait" },
-        { id: "c6", imageSrc: "http://img.b2bpic.net/free-photo/beautiful-kitchen-interior-design_23-2150976617.jpg", imageAlt: "Lighting interior" },
+        { id: "c1", imageSrc: "https://images.unsplash.com/photo-1576941089067-2de3c901e126?q=80&w=800", imageAlt: "Typical Manchester residential terrace housing" },
+        { id: "c2", imageSrc: "https://images.unsplash.com/photo-1518780664697-55e3ad937233?q=80&w=800", imageAlt: "Traditional red brick suburban street" },
+        { id: "c3", imageSrc: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=800", imageAlt: "Manchester semi-detached house exterior" },
+        { id: "c4", imageSrc: "https://images.unsplash.com/photo-1594073336712-421711202860?q=80&w=800", imageAlt: "Residential street in South Manchester" },
+        { id: "c5", imageSrc: "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?q=80&w=800", imageAlt: "Modern renovated Manchester home" },
+        { id: "c6", imageSrc: "https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=800", imageAlt: "Classic Victorian residential terraced houses" },
       ]}
     />
   </div>
