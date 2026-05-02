@@ -32,22 +32,10 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarStyleFullscreen
       navItems={[
-        {
-          name: "Home",
-          id: "hero",
-        },
-        {
-          name: "Services",
-          id: "services",
-        },
-        {
-          name: "Pricing",
-          id: "pricing",
-        },
-        {
-          name: "Contact",
-          id: "contact",
-        },
+        { name: "Home", id: "hero" },
+        { name: "Services", id: "services" },
+        { name: "Pricing", id: "pricing" },
+        { name: "Contact", id: "contact" },
       ]}
       brandName="MIROWIRO"
     />
@@ -56,51 +44,20 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroBillboardRotatedCarousel
       background={{
-        variant: "rotated-rays-animated",
-      }}
+        variant: "rotated-rays-animated"}}
       title="Trusted Electrician, Wythenshawe 24/7 Emergency Response"
       description="Fully qualified, transparent pricing, and 20 years keeping south Manchester safe. From emergency callouts to full rewires—Miro handles it all."
       buttons={[
-        {
-          text: "Call Now",
-          href: "tel:07000000000",
-        },
-        {
-          text: "Message on WhatsApp",
-          href: "https://wa.me/44700000000",
-        },
+        { text: "Call Now", href: "tel:07000000000" },
+        { text: "Message on WhatsApp", href: "https://wa.me/44700000000" },
       ]}
       carouselItems={[
-        {
-          id: "c1",
-          imageSrc: "http://img.b2bpic.net/free-photo/firewoman-her-uniform-with-safety-helmet_176474-93069.jpg?_wi=1",
-          imageAlt: "Electrician tools",
-        },
-        {
-          id: "c2",
-          imageSrc: "http://img.b2bpic.net/free-photo/electrical-technician-looking-focused-while-working-switchboard-with-fuses_169016-23482.jpg?_wi=1",
-          imageAlt: "Working on wires",
-        },
-        {
-          id: "c3",
-          imageSrc: "http://img.b2bpic.net/free-photo/living-room-without-electric-light-inside-modern-house-blackout_123827-35881.jpg",
-          imageAlt: "Home exterior",
-        },
-        {
-          id: "c4",
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-circuit-board-with-multimeter_23-2148419182.jpg",
-          imageAlt: "Tools setup",
-        },
-        {
-          id: "c5",
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-black-auto-mechanic-workshop_637285-9406.jpg",
-          imageAlt: "Electrician portrait",
-        },
-        {
-          id: "c6",
-          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-kitchen-interior-design_23-2150976617.jpg",
-          imageAlt: "Lighting interior",
-        },
+        { id: "c1", imageSrc: "http://img.b2bpic.net/free-photo/firewoman-her-uniform-with-safety-helmet_176474-93069.jpg", imageAlt: "Electrician tools" },
+        { id: "c2", imageSrc: "http://img.b2bpic.net/free-photo/electrical-technician-looking-focused-while-working-switchboard-with-fuses_169016-23482.jpg", imageAlt: "Working on wires" },
+        { id: "c3", imageSrc: "http://img.b2bpic.net/free-photo/living-room-without-electric-light-inside-modern-house-blackout_123827-35881.jpg", imageAlt: "Home exterior" },
+        { id: "c4", imageSrc: "http://img.b2bpic.net/free-photo/close-up-circuit-board-with-multimeter_23-2148419182.jpg", imageAlt: "Tools setup" },
+        { id: "c5", imageSrc: "http://img.b2bpic.net/free-photo/portrait-happy-black-auto-mechanic-workshop_637285-9406.jpg", imageAlt: "Electrician portrait" },
+        { id: "c6", imageSrc: "http://img.b2bpic.net/free-photo/beautiful-kitchen-interior-design_23-2150976617.jpg", imageAlt: "Lighting interior" },
       ]}
     />
   </div>
@@ -112,28 +69,13 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          title: "Emergency Repairs",
-          description: "24/7 rapid response when you need power back safely.",
-          bentoComponent: "reveal-icon",
-          icon: Zap,
-          imageSrc: "http://img.b2bpic.net/free-photo/business-analysis-report-folder-icon_53876-14637.jpg",
-          imageAlt: "business growth icon modern",
+          title: "Emergency Repairs",          description: "24/7 rapid response when you need power back safely.",          bentoComponent: "reveal-icon",          icon: Zap
         },
         {
-          title: "EICR Testing",
-          description: "Thorough landlord compliance and safety inspections.",
-          bentoComponent: "reveal-icon",
-          icon: ShieldCheck,
-          imageSrc: "http://img.b2bpic.net/free-photo/firewoman-her-uniform-with-safety-helmet_176474-93069.jpg?_wi=2",
-          imageAlt: "business growth icon modern",
+          title: "EICR Testing",          description: "Thorough landlord compliance and safety inspections.",          bentoComponent: "reveal-icon",          icon: ShieldCheck
         },
         {
-          title: "Full Rewires",
-          description: "Complete systems upgrades for aging properties.",
-          bentoComponent: "reveal-icon",
-          icon: Wrench,
-          imageSrc: "http://img.b2bpic.net/free-photo/electrical-technician-looking-focused-while-working-switchboard-with-fuses_169016-23482.jpg?_wi=2",
-          imageAlt: "business growth icon modern",
+          title: "Full Rewires",          description: "Complete systems upgrades for aging properties.",          bentoComponent: "reveal-icon",          icon: Wrench
         },
       ]}
       title="Comprehensive Electrical Services"
@@ -148,26 +90,10 @@ export default function LandingPage() {
       gridVariant="bento-grid"
       useInvertedBackground={true}
       metrics={[
-        {
-          id: "m1",
-          value: "20+",
-          description: "Years of Experience",
-        },
-        {
-          id: "m2",
-          value: "500+",
-          description: "Happy Local Clients",
-        },
-        {
-          id: "m3",
-          value: "24/7",
-          description: "Emergency Availability",
-        },
-        {
-          id: "m4",
-          value: "5-Star",
-          description: "Rated Professional",
-        },
+        { id: "m1", value: "20+", description: "Years of Experience" },
+        { id: "m2", value: "500+", description: "Happy Local Clients" },
+        { id: "m3", value: "24/7", description: "Emergency Availability" },
+        { id: "m4", value: "5-Star", description: "Rated Professional" },
       ]}
       title="Trusted by Wythenshawe"
       description="Proven local experience delivering reliable results every time."
@@ -181,55 +107,16 @@ export default function LandingPage() {
       useInvertedBackground={false}
       plans={[
         {
-          id: "p1",
-          badge: "Essential",
-          price: "£80",
-          subtitle: "Initial Emergency Callout",
-          features: [
-            "Diagnostic check",
-            "First 30 mins included",
-            "Safety appraisal",
-          ],
-          buttons: [
-            {
-              text: "Book Now",
-              href: "#contact",
-            },
-          ],
+          id: "p1",          badge: "Essential",          price: "£80",          subtitle: "Initial Emergency Callout",          features: ["Diagnostic check", "First 30 mins included", "Safety appraisal"],
+          buttons: [{ text: "Book Now", href: "#contact" }]
         },
         {
-          id: "p2",
-          badge: "Compliance",
-          price: "£150",
-          subtitle: "Landlord EICR Package",
-          features: [
-            "Full EICR inspection",
-            "Certification document",
-            "Code check",
-          ],
-          buttons: [
-            {
-              text: "Book Now",
-              href: "#contact",
-            },
-          ],
+          id: "p2",          badge: "Compliance",          price: "£150",          subtitle: "Landlord EICR Package",          features: ["Full EICR inspection", "Certification document", "Code check"],
+          buttons: [{ text: "Book Now", href: "#contact" }]
         },
         {
-          id: "p3",
-          badge: "Custom",
-          price: "Quote",
-          subtitle: "Full Property Rewiring",
-          features: [
-            "Detailed estimate",
-            "Certified materials",
-            "Full project management",
-          ],
-          buttons: [
-            {
-              text: "Get Quote",
-              href: "#contact",
-            },
-          ],
+          id: "p3",          badge: "Custom",          price: "Quote",          subtitle: "Full Property Rewiring",          features: ["Detailed estimate", "Certified materials", "Full project management"],
+          buttons: [{ text: "Get Quote", href: "#contact" }]
         },
       ]}
       title="Transparent Pricing"
@@ -242,14 +129,7 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={true}
       names={[
-        "NICEIC Approved",
-        "Landlord Certified",
-        "Manchester Business Guild",
-        "Emergency Rated",
-        "Safety Standard",
-        "Local Trust",
-        "Wythenshawe Electric Council",
-      ]}
+        "NICEIC Approved", "Landlord Certified", "Manchester Business Guild",        "Emergency Rated", "Safety Standard", "Local Trust", "Wythenshawe Electric Council"]}
       title="Compliance & Quality Assured"
       description="Licensed and trusted professional electrical services."
     />
@@ -261,46 +141,11 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={false}
       testimonials={[
-        {
-          id: "t1",
-          name: "Sarah J.",
-          handle: "@sarahhome",
-          testimonial: "Miro came out at 2 AM for an emergency fault. Fantastic service.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/closeup-charming-delighted-cute-female-customer-give-positive-feedback-show-thumbsup-like-gesture_1258-254022.jpg",
-        },
-        {
-          id: "t2",
-          name: "David M.",
-          handle: "@manclandlord",
-          testimonial: "Reliable EICR testing for my rental properties. Highly recommend.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-smiley-business-woman_23-2148603029.jpg",
-        },
-        {
-          id: "t3",
-          name: "Emma W.",
-          handle: "@localem",
-          testimonial: "Professional and clean work. Rewired my whole kitchen perfectly.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/male-coworkers-office-with-lunch_273609-6308.jpg",
-        },
-        {
-          id: "t4",
-          name: "Robert B.",
-          handle: "@robb",
-          testimonial: "Transparency on pricing was refreshing. No hidden fees at all.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-woman-working-as-real-estate-agent_23-2151064995.jpg",
-        },
-        {
-          id: "t5",
-          name: "Lucy K.",
-          handle: "@lucyhome",
-          testimonial: "Friendly and very knowledgeable. Fixed my lighting immediately.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/man-showing-new-home-his-surprised-happy-girlfriend_74855-10259.jpg",
-        },
+        { id: "t1", name: "Sarah J.", handle: "@sarahhome", testimonial: "Miro came out at 2 AM for an emergency fault. Fantastic service.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/closeup-charming-delighted-cute-female-customer-give-positive-feedback-show-thumbsup-like-gesture_1258-254022.jpg" },
+        { id: "t2", name: "David M.", handle: "@manclandlord", testimonial: "Reliable EICR testing for my rental properties. Highly recommend.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/portrait-smiley-business-woman_23-2148603029.jpg" },
+        { id: "t3", name: "Emma W.", handle: "@localem", testimonial: "Professional and clean work. Rewired my whole kitchen perfectly.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/male-coworkers-office-with-lunch_273609-6308.jpg" },
+        { id: "t4", name: "Robert B.", handle: "@robb", testimonial: "Transparency on pricing was refreshing. No hidden fees at all.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-woman-working-as-real-estate-agent_23-2151064995.jpg" },
+        { id: "t5", name: "Lucy K.", handle: "@lucyhome", testimonial: "Friendly and very knowledgeable. Fixed my lighting immediately.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/man-showing-new-home-his-surprised-happy-girlfriend_74855-10259.jpg" },
       ]}
       showRating={true}
       title="Client Success Stories"
@@ -313,26 +158,10 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={true}
       faqs={[
-        {
-          id: "f1",
-          title: "Are you fully qualified?",
-          content: "Yes, I hold full electrical qualifications and am fully insured.",
-        },
-        {
-          id: "f2",
-          title: "Do you offer emergency calls?",
-          content: "Yes, 24/7 service for all emergency electrical needs in Wythenshawe.",
-        },
-        {
-          id: "f3",
-          title: "What areas do you cover?",
-          content: "I specialize in Wythenshawe and the broader South Manchester area.",
-        },
-        {
-          id: "f4",
-          title: "Do you provide transparent quotes?",
-          content: "Yes, every job is quoted clearly upfront with no surprise costs.",
-        },
+        { id: "f1", title: "Are you fully qualified?", content: "Yes, I hold full electrical qualifications and am fully insured." },
+        { id: "f2", title: "Do you offer emergency calls?", content: "Yes, 24/7 service for all emergency electrical needs in Wythenshawe." },
+        { id: "f3", title: "What areas do you cover?", content: "I specialize in Wythenshawe and the broader South Manchester area." },
+        { id: "f4", title: "Do you provide transparent quotes?", content: "Yes, every job is quoted clearly upfront with no surprise costs." },
       ]}
       title="Frequently Asked Questions"
       description="Answers to common queries about our electrical services."
@@ -343,19 +172,11 @@ export default function LandingPage() {
   <div id="contact" data-section="contact">
       <ContactText
       useInvertedBackground={false}
-      background={{
-        variant: "sparkles-gradient",
-      }}
+      background={{ variant: "sparkles-gradient" }}
       text="Ready to get your home's electricity safe and reliable? Miro is ready to help."
       buttons={[
-        {
-          text: "Call Now",
-          href: "tel:07000000000",
-        },
-        {
-          text: "WhatsApp Message",
-          href: "https://wa.me/44700000000",
-        },
+        { text: "Call Now", href: "tel:07000000000" },
+        { text: "WhatsApp Message", href: "https://wa.me/44700000000" },
       ]}
     />
   </div>
@@ -363,14 +184,8 @@ export default function LandingPage() {
   <div id="footer" data-section="footer">
       <FooterLogoReveal
       logoText="MIROWIRO"
-      leftLink={{
-        text: "Privacy Policy",
-        href: "#",
-      }}
-      rightLink={{
-        text: "© 2024 MIROWIRO Services",
-        href: "#",
-      }}
+      leftLink={{ text: "Privacy Policy", href: "#" }}
+      rightLink={{ text: "© 2024 MIROWIRO Services", href: "#" }}
     />
   </div>
       </ReactLenis>
