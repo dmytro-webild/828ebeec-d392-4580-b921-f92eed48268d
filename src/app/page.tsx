@@ -52,12 +52,12 @@ export default function LandingPage() {
         { text: "Message on WhatsApp", href: "https://wa.me/44700000000" },
       ]}
       carouselItems={[
-        { id: "c1", imageSrc: "https://images.unsplash.com/photo-1576941089067-2de3c901e126?q=80&w=800", imageAlt: "Typical Manchester residential terrace housing" },
-        { id: "c2", imageSrc: "https://images.unsplash.com/photo-1518780664697-55e3ad937233?q=80&w=800", imageAlt: "Traditional red brick suburban street" },
-        { id: "c3", imageSrc: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=800", imageAlt: "Manchester semi-detached house exterior" },
-        { id: "c4", imageSrc: "https://images.unsplash.com/photo-1594073336712-421711202860?q=80&w=800", imageAlt: "Residential street in South Manchester" },
-        { id: "c5", imageSrc: "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?q=80&w=800", imageAlt: "Modern renovated Manchester home" },
-        { id: "c6", imageSrc: "https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=800", imageAlt: "Classic Victorian residential terraced houses" },
+        { id: "c1", imageSrc: "https://images.unsplash.com/photo-1594833297837-e21544a49c95?q=80&w=800", imageAlt: "Authentic Manchester residential terrace street" },
+        { id: "c2", imageSrc: "https://images.unsplash.com/photo-1615873968403-89e068629265?q=80&w=800", imageAlt: "Local Manchester semi-detached property" },
+        { id: "c3", imageSrc: "https://images.unsplash.com/photo-1574359411659-1de2b2da46f8?q=80&w=800", imageAlt: "Professional electrician working in a residential setting" },
+        { id: "c4", imageSrc: "https://images.unsplash.com/photo-1581783330335-273b6dc90265?q=80&w=800", imageAlt: "Qualified tradesperson at work in a home" },
+        { id: "c5", imageSrc: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=800", imageAlt: "Traditional red brick suburban street in Manchester" },
+        { id: "c6", imageSrc: "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?q=80&w=800", imageAlt: "Modern renovation project in a local home" },
       ]}
     />
   </div>
