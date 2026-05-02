@@ -73,12 +73,12 @@ export default function LandingPage() {
       carouselItems={[
         {
           id: "c1",
-          imageSrc: "http://img.b2bpic.net/free-photo/firewoman-her-uniform-with-safety-helmet_176474-93069.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/firewoman-her-uniform-with-safety-helmet_176474-93069.jpg?_wi=1",
           imageAlt: "Electrician tools",
         },
         {
           id: "c2",
-          imageSrc: "http://img.b2bpic.net/free-photo/electrical-technician-looking-focused-while-working-switchboard-with-fuses_169016-23482.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/electrical-technician-looking-focused-while-working-switchboard-with-fuses_169016-23482.jpg?_wi=1",
           imageAlt: "Working on wires",
         },
         {
@@ -124,7 +124,7 @@ export default function LandingPage() {
           description: "Thorough landlord compliance and safety inspections.",
           bentoComponent: "reveal-icon",
           icon: ShieldCheck,
-          imageSrc: "http://img.b2bpic.net/free-photo/firewoman-her-uniform-with-safety-helmet_176474-93069.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/firewoman-her-uniform-with-safety-helmet_176474-93069.jpg?_wi=2",
           imageAlt: "business growth icon modern",
         },
         {
@@ -132,7 +132,7 @@ export default function LandingPage() {
           description: "Complete systems upgrades for aging properties.",
           bentoComponent: "reveal-icon",
           icon: Wrench,
-          imageSrc: "http://img.b2bpic.net/free-photo/electrical-technician-looking-focused-while-working-switchboard-with-fuses_169016-23482.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/electrical-technician-looking-focused-while-working-switchboard-with-fuses_169016-23482.jpg?_wi=2",
           imageAlt: "business growth icon modern",
         },
       ]}
