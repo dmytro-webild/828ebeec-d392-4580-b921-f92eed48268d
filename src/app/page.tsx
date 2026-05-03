@@ -52,10 +52,10 @@ export default function LandingPage() {
         { text: "Message on WhatsApp", href: "https://wa.me/44700000000" },
       ]}
       carouselItems={[
-        { id: "c1", imageSrc: "https://images.unsplash.com/photo-1594833297837-e21544a49c95?q=80&w=800", imageAlt: "Authentic Manchester residential terrace street" },
+        { id: "c1", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D9nfb4FioKrMBFoASVPQWMQUHu/uploaded-1777793624961-h6zx929v.jpg", imageAlt: "Authentic Manchester residential terrace street" },
         { id: "c2", imageSrc: "https://images.unsplash.com/photo-1615873968403-89e068629265?q=80&w=800", imageAlt: "Local Manchester semi-detached property" },
         { id: "c3", imageSrc: "https://images.unsplash.com/photo-1574359411659-1de2b2da46f8?q=80&w=800", imageAlt: "Professional electrician working in a residential setting" },
-        { id: "c4", imageSrc: "https://images.unsplash.com/photo-1581783330335-273b6dc90265?q=80&w=800", imageAlt: "Qualified tradesperson at work in a home" },
+        { id: "c4", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D9nfb4FioKrMBFoASVPQWMQUHu/uploaded-1777793624961-t8njpxpa.webp", imageAlt: "Qualified tradesperson at work in a home" },
         { id: "c5", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D9nfb4FioKrMBFoASVPQWMQUHu/uploaded-1777793624961-orm2p87p.jpg", imageAlt: "Traditional red brick suburban street in Manchester" },
         { id: "c6", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D9nfb4FioKrMBFoASVPQWMQUHu/uploaded-1777793624961-aby0xbbt.webp", imageAlt: "Modern renovation project in a local home" },
       ]}
