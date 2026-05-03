@@ -56,8 +56,8 @@ export default function LandingPage() {
         { id: "c2", imageSrc: "https://images.unsplash.com/photo-1615873968403-89e068629265?q=80&w=800", imageAlt: "Local Manchester semi-detached property" },
         { id: "c3", imageSrc: "https://images.unsplash.com/photo-1574359411659-1de2b2da46f8?q=80&w=800", imageAlt: "Professional electrician working in a residential setting" },
         { id: "c4", imageSrc: "https://images.unsplash.com/photo-1581783330335-273b6dc90265?q=80&w=800", imageAlt: "Qualified tradesperson at work in a home" },
-        { id: "c5", imageSrc: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=800", imageAlt: "Traditional red brick suburban street in Manchester" },
-        { id: "c6", imageSrc: "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?q=80&w=800", imageAlt: "Modern renovation project in a local home" },
+        { id: "c5", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D9nfb4FioKrMBFoASVPQWMQUHu/uploaded-1777793624961-orm2p87p.jpg", imageAlt: "Traditional red brick suburban street in Manchester" },
+        { id: "c6", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3D9nfb4FioKrMBFoASVPQWMQUHu/uploaded-1777793624961-aby0xbbt.webp", imageAlt: "Modern renovation project in a local home" },
       ]}
     />
   </div>
